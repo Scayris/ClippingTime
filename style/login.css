@@ -1,0 +1,57 @@
+
+.card-size-login {
+	width: 320pt;
+	min-height: 280pt;
+}
+
+.card-margins-login {
+	/*position: absolute;
+	left: 40pt;
+	top: 40pt;*/
+	margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+	/*margin-left: 40pt;*/
+}
+.card-size-register {
+	width: 320pt;
+	min-height: 420pt;
+}
+
+.card-margins-register {
+	/*position: absolute;
+	right: 40pt;
+	top: 40pt;*/
+	margin-top: 15pt;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100pt;
+	/*margin-left: 40pt;*/
+}
+.body {
+	min-width: 30pt;
+}
+
+.card > .mdl-card__title {
+	color: #fff;
+}
+.button-margin {
+	margin-top: 15pt;
+	margin-bottom: 15pt;
+}
+.textField-margin {
+	margin-top: 30pt;
+}
+body {
+	background: url('../assets/Ljubljana_Slovenia-urejena1.jpg');
+	background-position: top;
+
+}
+
+.naslov{
+	font-size: 72pt;
+	text-align: center;
+	font-family: 'Lobster', 'cursive';
+	color: #fff;
+	
+}

@@ -1,0 +1,124 @@
+body {
+	background-color: #ddd;
+}
+
+.card-size {
+	width: 500pt;
+}
+
+.card-margins {
+	margin: 16pt;
+	
+	padding: 16pt;
+	
+	vertical-align: top;
+}
+
+.card > .mdl-card__title {
+	color: #fff;
+}
+
+#calendar-button {
+	display: inline-block !important;
+	float: right !important;
+}
+#calendar-email {
+	display: inline-block !important;
+	float: left !important;
+}
+calendar-control-holder {
+	max-height: 80px !important;
+}
+
+.holder-left {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	max-width: 900pt;
+}
+.holder-right {
+	float: right;
+	display: inline-block;
+	width: 50%;
+	max-width: 900pt;
+}
+
+.holder-left > .card-margins {
+	float: right;
+}
+.holder-right > .card-margins {
+	float: left;
+}
+
+/* Le bus */
+div.container > h1:nth-child(1) {
+	display: none;
+}
+div.container > h1 > a {
+	font-size: 10pt;
+	margin-top: 1pt;
+}
+div.container > h1 {
+	margin-top: -10pt;
+	margin-bottom: 5px;
+
+	padding-top: -10pt;
+}
+div.container > hr {
+	display: none;
+}
+
+div.container > table{
+	border-spacing: 15px;
+	width: 100%;
+
+	background-color: #009688;
+	color: #eee;
+
+	box-shadow: 1pt 1pt 4pt #aaa;
+	border-radius: 2pt;
+
+	padding: 8pt;
+}
+div.container > form{
+	display: none;
+}
+div.container > p{
+	display: none;
+}
+div.container > p:nth-child(4){
+	display: none;
+}
+#social-container {
+	display: none;
+}
+#lpp-content {
+	margin-top: 1px;
+}
+
+
+.krog{
+	width: 90%;
+	height: 150pt;
+	border-radius: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	margin-top: 30pt;
+	margin-bottom: 20pt;
+	background: url('../assets/Ljubljana_Slovenia-urejena1.jpg');
+	background-position: center;
+}	
+.quote {
+	font-size: 45pt;
+	text-align: center;
+	padding-top: 40pt;
+	font-family: 'Lobster', 'cursive';
+	color: #fff;
+}
+
+
+.time_preferences > tbody > tr > th, .time_preferences > tbody > tr > td {
+	padding-left: 20pt;
+}
